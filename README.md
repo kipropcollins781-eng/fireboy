@@ -1,6 +1,6 @@
 # Fireboy
 
-A demo casino / real-money gaming application structure.
+A real-money gaming app starter with a Node/Express backend and a React frontend.
 
 ## Project structure
 
@@ -13,13 +13,21 @@ fireboy/
 │       └── games.js
 ├── frontend/
 │   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
 │   └── README.md
 ├── README.md
 ├── .gitignore
 └── .gitkeep
 ```
 
-## Backend setup
+## Run the app
+
+### Backend
 
 ```bash
 cd backend
@@ -27,4 +35,12 @@ npm install
 npm start
 ```
 
-The API will run on http://localhost:3000
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend will call the backend on http://localhost:3000.

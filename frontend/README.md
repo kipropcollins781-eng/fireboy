@@ -1,5 +1,11 @@
 # Frontend
 
-This folder is ready for your client-side app.
+This folder contains the React + Vite frontend for the Fireboy app.
 
-Use this directory for React, Vue, or plain HTML/CSS/JS files.
+To run it:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
